@@ -1,0 +1,53 @@
+
+
+body {
+	background-color: #111111;
+	color: #CCC;
+}
+
+div.container {
+	margin:150px auto;
+	padding:1px;
+}
+/*---------------------*/
+
+div.accslid {
+	width    : 900px;
+	margin   : 0 auto;
+	overflow : hidden;
+}
+
+div.accslid div.train{
+	width    : 1300px;
+}
+
+div.accslid div.train > div {
+	float    : left;
+	width    : 150px;
+	overflow : hidden;
+}
+
+div.accslid div.train > div:last-child {
+	padding-right : 300px;
+}
+
+/*--------accslid animation-------------*/
+
+div.accslid div.train > div {
+	-webkit-transition : width 1200ms;
+}
+
+div.accslid:hover div.train > div {
+	width    : 50px;
+}
+
+div.accslid div.train > div:hover {
+	width    : 600px;
+}
+
+/*-------------ezafat------------*/
+
+div.accslid div.train > div  {
+	
+}
+

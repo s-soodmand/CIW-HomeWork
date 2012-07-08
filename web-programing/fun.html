@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<style type="text/css">
+
+div.btns{
+	background-color: darkmagenta;
+	position: absolute;
+	left:45%;
+	top:45%;
+	font-family:"Comic Sans MS", cursive;
+	cursor:pointer;
+	white-space:nowrap;
+	padding: 10px 10px;
+	-webkit-transition:all 2s;
+	}
+
+</style>
+<script type="text/javascript">
+
+function rnd(x,y){
+
+	return Math.round( Math.random()*90 );
+}
+
+function rndcolor(){
+	var c = '#';
+	for(var i =0; i<6;i++){
+		c+=rnd(0,15).toString(16);
+	}
+	return c;
+	
+}
+
+function move(){
+var div= document.getElementsByClassName('btns').item(0);
+	div.style.left=rnd(1,90)+'%';
+	div.style.top=rnd(1,90)+'%';
+	div.style.color=rndcolor();
+}
+
+
+
+</script>
+
+
+<body>
+
+	<div class="btns" onMouseOver="move()">Click Me</div>
+
+</body>
+</html>		

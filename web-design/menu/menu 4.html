@@ -1,0 +1,120 @@
+<head>
+<style type="text/css">
+body{
+	background-color:#DDE;	
+}
+
+*{
+	padding:0;
+	margin:0;	
+}
+
+div.container{
+	width:980px;
+	margin:0 auto;
+}
+
+div.menu{
+	margin-top:5px;
+	background-color:#0C5686;
+	height:37px;
+}
+
+div.menu ul{
+	list-style-type:none;
+	margin:0 auto;
+	width:485px;
+}
+
+div.menu li{
+	float:left;
+	border-left:2px solid white;
+	position:relative;
+	-webkit-transition:800ms;		
+
+}
+
+div.menu li:first-child{
+	border-left:none;
+}
+
+div.menu a{
+	display:block;
+	padding:6px 12px;
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-transform:capitalize;
+	-webkit-transition:1000ms;
+}
+
+div.menu li:hover{
+	background-color:#009ADA;
+	-webkit-transition:300ms;	
+}
+
+div.menu a:hover{
+	color:#FFB;
+	-webkit-transition:300ms;
+}
+
+div.menu li ul{
+	width:100%;
+	display:none;
+	position:absolute;
+	top:34px;
+	left:0;	
+	background-color:#0C5686;
+}
+
+
+div.menu li li{
+	float:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:2px solid #FFF;
+	text-align:center;
+}
+
+div.menu li li:first-child{
+	border-left:none;
+	border-top:2px solid #FFF;
+}
+
+div.menu li:hover ul{
+	display:block;
+}
+
+</style>
+</head>
+<html>
+<body>
+<div class="main">
+	<div class="container">
+		<div class="menu">
+			<ul>
+				<li><a href="#">home</a></li>
+				<li><a href="#">product</a>
+					<ul>
+						<li><a href="#">web</a></li>
+						<li><a href="#">shabake</a></li>
+						<li><a href="#">photo</a></li>
+						<li><a href="#">design</a></li>
+					</ul>
+				</li>	
+				<li><a href="#">gallery</a>
+					<ul>
+						<li><a href="#">pic 1</a></li>
+						<li><a href="#">pic 2</a></li>
+						<li><a href="#">pic 3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">about us</a></li>
+				<li><a href="#">contact us</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>

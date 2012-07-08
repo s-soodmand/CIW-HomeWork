@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin  : 0;
+	padding : 0;
+}
+
+.clear{
+	clear:both;
+	width:0 !important;
+	height:0 !important;
+	min-height:0 !important;
+	min-width:0 !important;
+	overflow:hidden;
+}
+
+div.container{
+	width  : 980px;
+	margin : 0 auto;
+}
+
+div.slideshow{
+	width    : 700px;
+	overflow : hidden;
+	margin   : 0 auto;
+}
+
+div.slideshow .train{
+	width    : 2900px;
+	position : relative;
+	-webkit-transition : left 800ms;
+}
+
+div.slideshow .train > div{
+	float : left;
+}
+
+div.slideshow .train > div > img{
+	display : block;
+}
+
+div.slideshow ul.btns{
+	list-style-type : none;
+}
+
+div.slideshow li{
+	width:10px;
+	height:10px;
+	background-color:#AAA;
+	border-radius:50%;
+	float: right;
+	margin-left:5px;
+	-webkit-transition : all 600ms;
+}
+
+div.slideshow li:hover{
+	background-color:#000;
+	-webkit-transition : all 200ms;
+}

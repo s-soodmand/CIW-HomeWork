@@ -1,0 +1,30 @@
+div.menu{
+	padding:1px;
+}
+
+div.menu ul{
+	list-style-type: none;
+
+}
+
+div.menu li{
+	float: left;
+	padding-top: 33px;
+}
+
+div.menu a{
+	padding:0px 32px;
+	display:block;
+	color:#999;
+	text-decoration:none;
+	font-size:14px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-transform:capitalize;
+	padding-left:3px;
+}
+
+
+
+div.menu a:hover{
+	color:#555;	
+}

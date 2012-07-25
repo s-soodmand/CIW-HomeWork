@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+	*{
+		padding:0;
+		margin:0;
+		-webkit-transition:all 6s;
+	}
+	
+	body{
+		background-color:#121212;
+	}
+	
+	div.box{
+		background-color:#90C;
+		width:300px;
+		height:300px;
+		border-radius:20px;
+		margin:100px auto;
+	}
+	
+	body.preload div.box{
+		-webkit-transform:rotate(1080deg) scale(0.1,0.1) translateY(700px);
+	}
+
+</style>
+
+<script type="text/javascript">
+	window.onload=function(){
+		document.body.className=''	
+	}
+</script>
+</head>
+
+<body class="preload">
+	<div class="box"></div>
+</body>
+</html>

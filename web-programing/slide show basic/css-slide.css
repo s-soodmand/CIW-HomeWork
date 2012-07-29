@@ -1,10 +1,10 @@
-.container{
+div.container{
 	width:980px;
 	margin:0 auto;
 	padding-top:1px;
 }
 
-.slideshow{
+div.slideshow{
 	width: 600px;
 	height:400px;
 	margin: 50px auto 0;
@@ -12,7 +12,7 @@
 	overflow: hidden;
 }
 
-.slideshow div.train{
+div.slideshow div.train{
 	width: 600px;
 	height: 400px;
 	position: absolute;
@@ -21,7 +21,7 @@
 	-webkit-transition : all 500ms;
 }
 
-.slideshow div.train > div{
+div.slideshow div.train > div{
 	width:600px;
 	height:inherit;
 	float: left;

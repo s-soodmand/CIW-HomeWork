@@ -1,0 +1,56 @@
+.container{
+	width:980px;
+	margin:0 auto;
+	padding-top:1px;
+}
+
+.slideshow{
+	width: 600px;
+	height:400px;
+	margin: 50px auto 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.slideshow div.train{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top:0;
+	left:0;
+	-webkit-transition : all 500ms;
+}
+
+.slideshow div.train > div{
+	width:600px;
+	height:inherit;
+	float: left;
+}
+
+/* ------------- button --------- */
+div.slideshow ul.button{
+	list-style: none;
+	height: 16px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+div.slideshow ul.button li{
+	float: left;
+	width: 30px;
+	height: 14px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-right: 6px;
+	background-color: #BEBEBE;
+	-webkit-transition : all 1000ms;
+}
+
+div.slideshow ul.button li: hover,
+div.slideshow ul.button li.active{
+	height           : 16px;
+	margin-top       : -3px;
+	background-color : #BDB;
+	-webkit-transition-duration : 200ms;
+}

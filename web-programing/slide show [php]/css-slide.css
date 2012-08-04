@@ -39,39 +39,32 @@ div.slideshow div.train > div{
 /* ------------- button --------- */
 div.slideshow ul.button{
 	list-style: none;
-	height: 16px;
 	position: absolute;
-	left: 0;
+	left: 240px;
 	bottom: 0;
 }
 
 div.slideshow ul.button li{
 	float: left;
-	/*width: 25px;*/
-	/*height: 12px;*/
 	
 	background-image:url('images/bullets.png');
+	background-position : 0px 0px;
 	width:22px;
 	height:20px;
 	cursor: pointer;
-	margin-right: 6px;
-	-webkit-border-radius:2px;
-	-webkit-transition : all 1000ms;
+	margin-right: 0px;
 	
 }
 
 
 div.slideshow ul.button li:hover {
-	height           : 16px;
-	margin-top       : -2px;
-	-webkit-transition-duration : 200ms;
+	background-position : 0px -20px;
+	
 }
 
 
 div.slideshow ul.button li.active{
-	height           : 16px;
-	margin-top       : -2px;
-	-webkit-transition-duration : 200ms;
+	background-position : 0px -22px;
 }
 /* ----------------------------------------------------- */
 div.slideshow div.prv,

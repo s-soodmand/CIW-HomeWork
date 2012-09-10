@@ -5,14 +5,14 @@
                 <div class="art-box-body art-blockcontent-body">
                     <br />
                     <p>
-                        <a href="#"><img width="48" height="48" alt="" src="images/feed.png" /></a> 
-                        <a href="#"><img width="48" height="48" alt="" src="images/facebook1.png" /></a> 
-                        <a href="#"><img width="48" height="48" alt="" src="images/technorati1.png" /></a>
+                        <a href="#"><img width="48" height="48" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/feed.png" /></a> 
+                        <a href="#"><img width="48" height="48" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/facebook1.png" /></a> 
+                        <a href="#"><img width="48" height="48" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/technorati1.png" /></a>
                         <br />
      					<br />
-                        <a href="#"><img width="48" height="48" alt="" src="images/delicious1.png" /></a>   	
-                        <a href="#"><img width="48" height="48" alt="" src="images/flickr1.png" /></a>   
-                        <a href="#"><img width="48" height="48" alt="" src="images/picasa.png" /></a> 
+                        <a href="#"><img width="48" height="48" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/delicious1.png" /></a>   	
+                        <a href="#"><img width="48" height="48" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/flickr1.png" /></a>   
+                        <a href="#"><img width="48" height="48" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/picasa.png" /></a> 
                         <br />
                     </p>                
                     <div class="cleared"></div>

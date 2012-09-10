@@ -13,7 +13,7 @@
     													<div class="art-layout-cell" style="width: 100%;">                                                         
                                                         	
                                                             <h2>Happiness of Love and Romance</h2>
-                											<p><img width="363" height="241" alt="" src="images/shutterstock_4717327.jpg" style="float:left;" /></p>
+                											<p><img width="363" height="241" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/shutterstock_4717327.jpg" style="float:left;" /></p>
                                                             <?php the_post();?>
                                                             <h1> <?php the_title(); ?></h1>
                                                             <p><?php the_content(); ?></p>
@@ -29,7 +29,7 @@
                                                     	<div class="art-content-layout-row">
     														<div class="art-layout-cell" style="width: 100%;">
         														<h2>Graduation Opens Many Doors</h2>
-               								 					<p><img width="360" height="248" alt="" src="images/shutterstock_20638912.jpg" style="float:left;" /></p>
+               								 					<p><img width="360" height="248" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/shutterstock_20638912.jpg" style="float:left;" /></p>
                                                                 <?php the_post();?>
                                                                 <h1> <?php the_title(); ?></h1>
                                                                 <p><?php the_content(); ?></p>

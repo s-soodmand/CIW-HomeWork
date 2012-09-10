@@ -17,24 +17,24 @@
                                                 <div class="art-content-layout">
                                                     <div class="art-content-layout-row">
                                                         <div class="art-layout-cell" style="width: 20%;">
-                                                            <p style="text-align: center; margin: 0px"><a href="#"><img width="102" height="102" alt="" src="images/paint.png" /></a></p>
+                                                            <p style="text-align: center; margin: 0px"><a href="#"><img width="102" height="102" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/paint.png" /></a></p>
                                                             <h5>Artistic</h5>
                                                         </div>
                                                         <div class="art-layout-cell" style="width: 20%;">
-                                                            <p style="text-align: center;margin: 0px"><a href="#"><img width="102" height="102" alt="" src="images/people.png" /></a></p>
+                                                            <p style="text-align: center;margin: 0px"><a href="#"><img width="102" height="102" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/people.png" /></a></p>
                                                             <h5>People</h5>
                                                         </div>
                                                         <div class="art-layout-cell" style="width: 20%;">
-                                                            <p style="text-align: center;margin: 0px"><a href="#"><img width="102" height="102" alt="" src="images/home.png" /></a></p>
+                                                            <p style="text-align: center;margin: 0px"><a href="#"><img width="102" height="102" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/home.png" /></a></p>
                                                             <h5>Country</h5>
                                                         </div>
                                                         <div class="art-layout-cell" style="width: 20%;">
-                                                            <p style="text-align: center;margin:0px"><a href="#"><img width="102" height="102" alt="" src="images/building.png" /></a></p>
+                                                            <p style="text-align: center;margin:0px"><a href="#"><img width="102" height="102" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/building.png" /></a></p>
                                                             <h5>Industrial</h5>
                                                         </div>
                                                         <div class="art-layout-cell" style="width: 20%;">
-                                                            <p style="text-align: center; margin: 0px"><a href="#"><img width="102" height="102" alt="" src="images/school.png" /></a></p>
-                                                            <h5><?php wp_list_pages(array('title_li' => '')); ?></h5>
+                                                            <p style="text-align: center; margin: 0px"><a href="#"><img width="102" height="102" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/school.png" /></a></p>
+                                                            <h5>School</h5>
                                                         </div>
                                                     </div>
                                                 </div>

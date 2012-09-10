@@ -11,6 +11,8 @@
 
 
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/zepto.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/script.js"></script>
     <!--[if IE 6]><link rel="stylesheet" href="style.ie6.css" type="text/css" media="screen" /><![endif]-->
     <!--[if IE 7]><link rel="stylesheet" href="style.ie7.css" type="text/css" media="screen" /><![endif]-->
  

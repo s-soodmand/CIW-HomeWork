@@ -15,7 +15,10 @@
                                                             <h2>Happiness of Love and Romance</h2>
                 											<p><img width="363" height="241" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/shutterstock_4717327.jpg" style="float:left;" /></p>
                                                             <?php the_post();?>
-                                                            <h1> <?php the_title(); ?></h1>
+                                                            <h1> <?php 
+																	the_title();
+																	$meta = get_post_custom(); 
+																?></h1>
                                                             <p><?php the_content(); ?></p>
                                                             <!-- 
                 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget.</p>
@@ -29,7 +32,22 @@
                                                     	<div class="art-content-layout-row">
     														<div class="art-layout-cell" style="width: 100%;">
         														<h2>Graduation Opens Many Doors</h2>
-               								 					<p><img width="360" height="248" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/shutterstock_20638912.jpg" style="float:left;" /></p>
+               								 					<p>
+                                                                	<a href="http://soudmand.ir/blog/wp-content/uploads/2012/09/shutterstock_20638912.jpg">
+                                                                		<img width="360" height="248" alt="" src="http://soudmand.ir/blog/wp-content/uploads/2012/09/shutterstock_20638912.jpg" style="float:left;" />
+                                                                    </a>
+                                                                    <?php
+																		if(count($meta['img'])>0){
+																			echo "<div class='post_images'>";
+																			foreach ($meta['img'] as $img_id) {
+																				$img_small = wp_get_attachment_image($img_id,'thumbnail');
+																				$img_larg = wp_get_attachment_image_src($img_id,'large');
+																				echo "<a href='$img_larg[0]'>$img_small</a>";
+																			}
+																			echo "</div>";	
+																		}
+																	?>
+                                                                </p>
                                                                 <?php the_post();?>
                                                                 <h1> <?php the_title(); ?></h1>
                                                                 <p><?php the_content(); ?></p>
